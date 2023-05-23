@@ -1,0 +1,20 @@
+@font-face {
+    font-family: SansSerifBookFLF;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/sans-serif/SansSerifBookFLF.eot);
+    src: url(../fonts/sans-serif/SansSerifBookFLF.eot?#iefix) format("embedded-opentype"), url(../fonts/sans-serif/SansSerifBookFLF.woff) format("woff"), url(../fonts/sans-serif/SansSerifBookFLF.otf) format("truetype")
+}
+
+@font-face {
+    font-family: SansSerifFLF-Demibold;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/sans-serif/SansSerifFLF-Demibold.eot);
+    src: url(../fonts/sans-serif/SansSerifFLF-Demibold.eot?#iefix) format("embedded-opentype"), url(../fonts/sans-serif/SansSerifFLF-Demibold.woff) format("woff"), url(../fonts/sans-serif/SansSerifFLF-Demibold.otf) format("truetype")
+}
+html body{
+    font-family: SansSerifFLF-Demibold;
+    font-style: normal;
+    font-display: swap;
+}

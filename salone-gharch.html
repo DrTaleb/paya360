@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>سامانه هوشمند پایا 360</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.rtl.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet"/>
+    <link href="css/style.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
+          rel="stylesheet"/>
+</head>
+<body>
+<main class="mx-auto">
+    <!-- Start navbar -->
+    <section class="sticky-top container-fluid bg-white">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand order-2" href="index.html">
+                    <img src="images/main-paya360-logo.webp" width="100" alt="paya360"/>
+                </a>
+                <a class="btn my-btn-blue order-3 d-lg-none" href="login.html">
+                        ورود به سامانه
+                </a>
+                <button class="menu-icon border-0 d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse text-center text-lg-start navbar-collapse order-3 mt-2 mt-lg-0"
+                     id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="index.html">
+                                صفحه اصلی
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ms-4">
+                            <a class="nav-link dropdown-toggle text-black fw-bold" href="#" role="button"
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                محصولات<i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li>
+                                    <a class="dropdown-item" href="salone-gharch.html">هوشمند سازی سالن قارچ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="golkhaneh.html">هوشمند سازی گلخانه ها</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="morghdari.html">هوشمند سازی مرغداری ها</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="miner.html">هوشمند سازی فارم ماینینگ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="estakhr.html">هوشمند سازی استخر و اسپا</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="parvaresh-e-mahi.html">هوشمند سازی استخر پرورش ماهی</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="keshavarzi.html">هوشمند سازی کشاورزی هوشمند</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="anbaar-sardkhneh.html">هوشمند سازی انبار و سردخانه</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="sakhteman.html">هوشمند سازی ساختمان</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="blog.html">مقالات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="gallery.html">
+                                گالری عکس
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="aboutus.html">
+                                درباره ما
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="contactus.html">
+                                تماس با ما
+                            </a>
+                        </li>
+                        <li class="nav-item ms-xl-5">
+                            <a class="nav-link active border-end border-start border-1 border-secondary fw-bold px-lg-4"
+                               aria-current="page" href="contactus.html">
+                                مشاوره رایگان
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ms-4">
+                            <a class="nav-link dropdown-toggle text-black " href="#" role="button"
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Fa <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li class="dropdown-item me-4">
+                                    <div class="d-flex flex-row justify-content-lg-between justify-content-center align-items-center gap-3">
+                                        <img class="col-1 col-lg-6" src="images/iranflag.webp" alt="#">
+                                        <a class="text-black mt-1" href="#">Fa</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item me-4">
+                                    <div class="d-flex flex-row justify-content-lg-between justify-content-center align-items-center gap-3">
+                                        <img class="col-1 col-lg-6" src="images/englandflag.webp" alt="#">
+                                        <a class="text-black mt-1" href="paya360-en/index.html">En</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="btn my-btn-blue d-none d-lg-inline" href="login.html">
+                        ورود به سامانه
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- end navbar-->
+    <!-- header-->
+    <section>
+        <header class="container">
+            <div class="d-flex flex-lg-row flex-column align-items-start px-lg-5">
+                <div class="col-lg-6 d-flex flex-column gap-4 px-md-5 mt-lg-3">
+                    <h2 class="box text-center text-lg-start">
+                        اتوماسیون سیستم کنترل هوشمند پرورش قارچ
+                    </h2>
+                    <p class="text-justify text-secondary box">
+                        همانطور که می دانید کنترل دقیق میزان دما و رطوبت سالن ها و همینطور گردش هوا در سالن پرورش قارچ
+                        از اهمیت بالایی بر خوردار است، در این متن می خواهیم اهمیت هوشمندسازی این موارد را بررسی کنیم.پس
+                        از بستر سازی کمپوست و عملیات تخته کوبی باید شرایط محیطی لازم برای رشد قارچ را فراهم نمود تا
+                        بذرها در این شرایط مطلوب ، به رشد ایده آل برسند و در نهایت عملکرد محصول ما را بالا ببرند.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 mt-5 mt-lg-0 px-lg-3">
+                    <iframe class="w-100 h300px rounded" src="https://www.aparat.com/video/video/embed/videohash/l8IA6/vt/frame"
+                                                allowFullScreen="true" webkitallowfullscreen="true"
+                                                mozallowfullscreen="true"></iframe>
+                </div>
+            </div>
+        </header>
+    </section>
+    <!-- end header-->
+    <!--description section-->
+    <section class="bg-light">
+        <img class="w-100 pb-4" src="images/wave.webp">
+        <div class="px-lg-5 px-2 pb-5">
+            <div class="container px-lg-5">
+                <p class="text-justify px-lg-5">
+                    پس از بستر سازی کمپوست و عملیات تخته کوبی باید شرایط محیطی لازم برای رشد قارچ را فراهم نمود تا بذرها
+                    در این شرایط مطلوب ، به رشد ایده آل برسند و در نهایت عملکرد محصول ما را بالا ببرند.
+                </p>
+                <p class="text-justify px-lg-5">
+                    اسپان ران به معنی رشد ریسه یا میلیسیوم در کمپوست می باشد که معمولا بین 14 تا 17 روز طول می کشد و
+                    باید جهت رشد میلیسیوم شرایط محیطی آن را فراهم کنیم. در ادامه به بررسی مهمترین عوامل محیطی تاثیرگذار
+                    در مرحله اسپان‌ران یعنی دما و رطوبت می پردازیم و همچنین تاثیر هوشمندسازی را بر این موارد مورد مطالعه
+                    قرار میدهیم.
+                </p>
+                <p class="text-justify px-lg-5">
+                    پرورش دهندگان حرفه ای قارچ معتقدند که کنترل دما مهمترین عامل در پرورش قارچ است. دمای مطلوب برای رشد
+                    قارچ 23 تا 25 درجه سانتی گراد است، دمای کمتر از 10 درجه سانتی گراد باعث کاهش رشد میلیسیوم‌ها و دمای
+                    بالای 30 درجه سانتی گراد منجر به مرگ میلیسیوم‌‌‌‌‌‌ها می شود.
+                </p>
+                <p class="text-justify px-lg-5">
+                    دمای مطلوب هوا برای تشکیل اندام بارده قارچ 18 درجه سانتیگراد می‌باشد.
+                </p>
+                <p class="text-justify px-lg-5">
+                    اگر اختلاف دمای بین کمپوست و محیط در حدود 1.5 تا 2 درجه سانتیگراد حفظ شود، تشکیل قارچ بهتر انجام می
+                    شود، زیرا تبخیر را تحریک می کند و تبخیر باعث بالا آمدن مواد‌غذایی به سطح بستر می شود که منجر به رشد
+                    قارچ می‌شود.
+                </p>
+                <p class="text-justify px-lg-5">
+                    به عبارتی دیگر، در ماه اول، از روز اول تا قبل شوک دمایی باید دمای کمپوست بین 23 تا 27 درجه سانتی
+                    گراد باشد، در هنگام شوک دمایی دما را تا 16 درجه سانتیگراد می رسانیم و از سه روز بعد تا آخر دوره دمای
+                    محیط را روی 18 تا 20 درجه سانتیگراد نگه می داریم.
+                </p>
+                <p class="text-justify px-lg-5">
+                    کنترل رطوبت نیز مانند کنترل دما یکی از معیارهای مهم است. با ایجاد رطوبت نسبی مطلوب می‌توان به سطح
+                    رطوبت بالای 90 درصد رسید. خیس کردن مرتب کف و دیوارهای سالن باعث ایجاد رطوبت و سرما می شود.
+                </p>
+                <h3 class="text-justify px-lg-5 mt-5 text-center text-lg-start">
+                    برخی از موارد قابل کنترل با سامانه هوشمند پایا 360 ویژه پرورش قارچ:
+                </h3>
+                <ul class="text-justify px-lg-5 mt-5 ms-lg-5">
+                    <li class="mt-2">
+                        کنترل از راه دور رطوبت محیط.
+                    </li>
+                    <li class="mt-2">
+                        کنترل دمای محیط با استفاده از سنسورهای مربوطه و میله ای که دمای داخل کمپوست را بررسی می کند.
+                    </li>
+                    <li class="mt-2">
+                        کنترل اتوماتیک گردش هوا با گرفتن فیدبک از سنسورهای دی اکسید کربن و کنترل هوشمند دور فن‌های
+                        تهویه برای بهبود فرآیند کشت قارچ.
+                    </li>
+                    <li class="mt-2">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است
+                    </li>
+                    <li class="mt-2">
+                        دریافت گزارشات و هشدارهای سیستم بر روی تلفن همراه مانند هشدار افزایش دما و یا خاموش و روشن
+                        کردن چراغ ها.
+                    </li>
+                    <li class="mt-2">
+                        قابلیت زمان بندی و اعمال فرمان ها در زمان های مشخص شده.
+                    </li>
+                    <li class="mt-2">
+                        قابلیت کالیبراسیون دما و رطوبت.
+                    </li>
+                    <li class="mt-2">
+                        قابلیت تنظیم حدود بالا و پایین دما و رطوبت به طور مجزا و کنترل وسایل برقی مربوطه طبق حدود
+                        تعیین شده برای ثابت نگه داشتن دما و رطوبت
+                    </li>
+                    <li class="mt-2">
+                      قابلیت تنظیم روزانه و هفتگی.
+                    </li>
+                    <li class="mt-2">
+                        قابلیت کنترل هر وسیله برقی به صورت مجزا و ارائه برنامه آنی به آنها.
+                    </li>
+                    <li class="mt-2">
+                        قابلیت اتصال به سیستم‌های کنترل دیگر مانند اعلام و اطفاء حریق، سیستم های امنیتی و …
+                    </li>
+                </ul>
+                <div class="d-flex flex-row justify-content-center mt-5 px-lg-5">
+                    <img class="w-100 rounded-3 shadow-lg" src="blog-img/Gharch/dee35a4a658a1e9be3f795f8cdbeae02%20copy.webp">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end description section-->
+    <!-- owl slider -->
+    <div class="container mt-5">
+        <div class="owl-carousel owl-carousel- owl-theme">
+            <div>
+                <a href="salone-gharch.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/mushroom%20(1).webp">
+                        <span class="fw-bold text-dark">هوشمند سازی سالن قارچ </span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="golkhaneh.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/smart-farm%20(5).webp">
+                        <span class="fw-bold text-dark">هوشمند سازی گلخانه ها</span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="morghdari.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/domotics%20(1).webp">
+                        <span class="fw-bold text-dark">هوشمند سازی مرغداری ها </span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="miner.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/mining%20(1).webp">
+                        <span class="fw-bold text-dark">هوشمند سازی فارم ماینینگ</span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="estakhr.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/swimming-pool.webp">
+                        <span class="fw-bold text-dark">هوشمند سازی استخر و اسپا</span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="parvaresh-e-mahi.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/oxygen.webp">
+                        <span class="fw-bold small mt-1 text-dark">هوشمند سازی استخر پرورش ماهی</span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="keshavarzi.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/agriculture.webp">
+                        <span class="fw-bold text-dark">هوشمند سازی کشاورزی</span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="anbaar-sardkhneh.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/distribution-center.webp">
+                        <span class="fw-bold text-dark">هوشمند سازی انبار</span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="anbaar-sardkhneh.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/cold-room.webp">
+                        <span class="fw-bold text-dark">هوشمند سازی سردخانه</span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="sakhteman.html">
+                    <div class="d-flex flex-column justify-content-between gap-3 align-items-center">
+                        <img class="w-25" src="icon-nwe-IOT/smart-city%20(4).webp">
+                        <span class="fw-bold text-dark text-center">هوشمند سازی ساختمان</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end owl slider -->
+    <!--    contact us -->
+    <section class="bg-light px-2">
+        <img class="w-100 pb-5" src="images/wave.webp">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column">
+                        <h1 class="fw-bolder mt-3">نیاز به مشاوره دارید ؟</h1>
+                        <p class="text-secondary pe-5 mt-3 text-justify">
+                            اگر مالک یکی از مکان های صنعتی ، تجاری،کشاورزی هستید و دغدغه های هوشمند سازی دارید
+                            حتما
+                            از
+                            مشاوره رایگان ما در این موضوع استفاده کنید . کارشناسان مجرب ما آماده بررسی و امکان
+                            سنجی
+                            مکان
+                            شما هستند تا بهترین راهکار ها با برآورد هزینه را برای شما داشته باشند .
+                        </p>
+                        <div class="d-flex flex-row justify-content-between ">
+                            <div class="d-flex flex-column align-items-start">
+                                <div class="d-flex flex-row gap-3 align-items-center box">
+                                    <img src="images/check-green.svg">
+                                    <span class="small mt-1 fw-bold">مشاوره</span>
+                                </div>
+                                <div class="py-3 border-start border-1 ms-2 box"></div>
+                                <div class="d-flex flex-row gap-3 align-items-center box">
+                                    <img src="images/check-green.svg">
+                                    <span class="small mt-1">امکان سنجی </span>
+                                </div>
+                                <div class="py-3 border-start border-1 ms-2 box"></div>
+                                <div class="d-flex flex-row gap-3 align-items-center box">
+                                    <img src="images/check-green.svg">
+                                    <span class="small mt-1">برآورد هزینه</span>
+                                </div>
+                                <div class="py-3 border-start border-1 ms-2 box"></div>
+                                <div class="d-flex flex-row gap-3 align-items-center box">
+                                    <img src="images/check-green.svg">
+                                    <span class="small mt-1">اجرا</span>
+                                </div>
+                                <div class="py-3 border-start border-1 ms-2 box"></div>
+                                <div class="d-flex flex-row gap-3 align-items-center box">
+                                    <img src="images/check-green.svg">
+                                    <span class="small mt-1">پشتیبانی</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="contactus.html" class="col-4 offset-7 btn my-btn-blue mt-4 shadow"> مشاوره خرید </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 d-flex flex-column align-items-center mt-5 mt-md-0">
+                    <img class="col-9 col-md-8 rounded-4 d-none d-lg-block" src="images/02158.webp">
+                </div>
+            </div>
+        </div>
+        <img class="wave-img w-100" src="images/Vector%20(1)%20(1).webp">
+    </section>
+    <!--    end contact us-->
+    <!--    sign in -->
+    <section class="bg-light">
+        <img class="w-100 pb-5" src="images/wave.webp">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row justify-content-around">
+                <div class="col-12 col-lg-4 d-flex flex-column align-items-start mt-5 mt-md-0 order-1 order-sm-0">
+                    <img class="col-12 col-md-10 rounded-4 d-none d-lg-block" src="images/world4.webp">
+                </div>
+                <div class="col-lg-6 order-0 order-sm-1">
+                    <div class="d-flex flex-column">
+                        <h1 class="mt-3 text-center text-md-start">ثبت نام در سامانه پایا 360</h1>
+                        <p class="text-secondary px-1 pe-md-5 mt-3 text-justify">
+                            اگر مالک یکی از مکان های صنعتی ، تجاری،کشاورزی هستید و دغدغه های هوشمند سازی دارید حتما
+                            از
+                            مشاوره رایگان ما در این موضوع استفاده کنید . کارشناسان مجرب ما آماده بررسی و امکان سنجی
+                            مکان
+                            شما هستند تا بهترین راهکار ها با برآورد هزینه را برای شما داشته باشند .
+                        </p>
+                        <div class="d-flex flex-row justify-content-around justify-content-md-between mt-5 ms-md-0">
+                            <div class="col-5 box">
+                                <img class="col-2 offset-5 offset-md-0 col-md-1" src="images/check-green.svg">
+                                <h5 class="fw-bolder small my-3 text-center text-sm-start">
+                                    تکمیل فرم ثبت نام :
+                                </h5>
+                                <p class="text-secondary small text-justify ">
+                                    پس از تکمیل فرم و بررسی فنی همکاران ما با شما تماس میگیرند تا در صورت نیاز به بازدید
+                                    محل با شما هماهنگی لازم صورت پذیرد
+                                </p>
+                            </div>
+                            <div class="col-5 me-md-5 box">
+                                <img class="col-2 offset-5 offset-md-0 col-md-1" src="images/check-green.svg">
+                                <h5 class="fw-bolder small my-3 text-center text-sm-start">
+                                    درخواست پنل دمو :
+                                </h5>
+                                <p class="text-secondary small text-justify">
+                                    با پر کردن فرم دمو آزمایشی پنل مدیریت سامانه ،همکاران ما با هماهنگی دسترسی به پنل را
+                                    برای شما فراهم میکنند
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around justify-content-md-start gap-4 box">
+                            <a href="login.html" class="col-md-4 col-5 btn my-btn-blue mt-4 shadow"> ثبت نام </a>
+                            <a href="login.html" class="col-md-4 col-5 btn my-btn-outline-blue mt-4 shadow">درخواست
+                                دمو</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="wave-img w-100" src="images/Vector%20(1)%20(1).webp">
+    </section>
+    <!--    end sign in-->
+    <!-- tab Start -->
+    <section class="bg-light">
+        <img class="w-100 pb-5" src="images/wave.webp">
+        <div class="eight">
+            <h1>محصولات ما</h1>
+        </div>
+        <div class="tab bg-light">
+
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label for="tab1">سالن قارچ</label>
+
+            <input id="tab2" type="radio" name="tabs">
+            <label for="tab2">گلخانه ها</label>
+
+            <input id="tab3" type="radio" name="tabs">
+            <label for="tab3">مرغداری ها</label>
+
+            <input id="tab4" type="radio" name="tabs">
+            <label for="tab4">فارم ماینینگ</label>
+
+            <input id="tab5" type="radio" name="tabs">
+            <label for="tab5">استخر و اسپا</label>
+
+            <input id="tab6" type="radio" name="tabs">
+            <label for="tab6">استخر پرورش ماهی</label>
+
+            <input id="tab7" type="radio" name="tabs">
+            <label for="tab7">کشاورزی هوشمند</label>
+
+            <input id="tab8" type="radio" name="tabs">
+            <label for="tab8">انبار و سردخانه</label>
+
+            <input id="tab9" type="radio" name="tabs">
+            <label for="tab9">ساختمان</label>
+
+            <section class="tab-section" id="content1">
+                <div class="row d-flex justify-content-around m-0 p-0">
+                    <div class="col-12 col-lg-4  order-1 order-lg-0">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="col-12 me-5">
+                                <h3 class="fw-bolder text-center text-lg-start my-3">
+                                    سالن قارچ
+                                </h3>
+                            </div>
+                            <p class="text-justify">
+                                یکی از مسائل مهم در پرورش قارچ کنترل دقیق دما و رطوبت سالن ها می باشد. برای بازدهی بیشتر
+                                در تولید انواع قارچ باید این مولفه را در نظر گرفت. بنابراین عملکرد صحیح و به موقع
+                                تجهیزات گرمایشی و سرمایشی و تولید رطوبت کافی شرایط را برای برداشت موفق فراهم می کند. به
+                                همین دلیل، پرورش دهندگان حرفه ای قارچ معتقدند که دما مهمترین عامل در پرورش قارچ است.
+                            </p>
+                            <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-end mb-4">
+                                <a href="salone-gharch.html" class="col-md-4 col-5 btn my-btn-blue mt-4 shadow"> جزئیات
+                                    محصول </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-flex flex-row justify-content-start img-product order-0 order-lg-1"
+                         data-aos="fade-up"
+                         data-aos-duration="1000">
+                        <img class="rounded-4 img-fluid mb-4"
+                             src="blog-img/Gharch/fresh-organic-white-mushrooms-champignon.webp"/>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-section" id="content2">
+                <div class="row d-flex justify-content-around m-0 p-0">
+                    <div class="col-12 col-lg-4  order-1 order-lg-0">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="col-12 me-5">
+                                <h3 class="fw-bolder text-center text-lg-start my-3">
+                                    گلخانه
+                                </h3>
+                            </div>
+                            <p class="text-justify">
+                                هوشمند سازی گلخانه امروزه بسیار مورد توجه صاحبان گلخانه قرار گرفته است.کم شدن خطای
+                                انسانی و افزایش بهره‌وری و همچنین مقرون به صرفه بودن از لحاظ اقتصادی تنها برخی از مزایای
+                                هوشمند سازی گلخانه به شمار می آیند.
+                                در یک گلخانه هوشمند تمام پارامترهای مهم از جمله کنترل رطوبت، دما، میزان دی اکسید کربن،
+                                منواکسید کربن، بادسنج و هر وسیله برقی دیگر را می‌توان از راه دور کنترل کرد.
+
+                            </p>
+                            <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-end mb-4">
+                                <a href="golkhaneh.html" class="col-md-4 col-5 btn my-btn-blue mt-4 shadow"> جزئیات
+                                    محصول </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-flex flex-row justify-content-start img-product order-0 order-lg-1"
+                         data-aos="fade-up"
+                         data-aos-duration="1000">
+                        <img class="rounded-4 img-fluid mb-4"
+                             src="blog-img/Golkhane/young-woman-controlling-plantation.webp"/>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-section" id="content3">
+                <div class="row d-flex justify-content-around m-0 p-0">
+                    <div class="col-12 col-lg-4  order-1 order-lg-0">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="col-12 me-5">
+                                <h3 class="fw-bolder text-center text-lg-start my-3">
+                                    مرغداری ها
+                                </h3>
+                            </div>
+                            <p class="text-justify">
+                                از آنجایی که دقت و نظم از عوامل مهم در پرورش مرغ و طیور می باشد، مدیریت صحیح در این
+                                زمینه بسیار حائز اهمیت است. سیستم مرغداری هوشمند یکی از بهترین راه‌ها برای کسب سود بیشتر
+                                در این حوزه محسوب می‌شود که امروزه بسیار مورد توجه قرار گرفته است.
+                                یک مدیر موفق برای پرورش طیور، ابتدا نیازمند داشتن اطلاعات کامل و دقیق می‌باشد، سپس با
+                                استفاده از تجربیات خود و سیستم هوشمندسازی مناسب می تواند سودآوری بالا در کنار آسودگی
+                                خاطر را تجربه کند.
+                            </p>
+                            <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-end mb-4">
+                                <a href="morghdari.html" class="col-md-4 col-5 btn my-btn-blue mt-4 shadow"> جزئیات
+                                    محصول </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-flex flex-row justify-content-start img-product order-0 order-lg-1"
+                         data-aos="fade-up"
+                         data-aos-duration="1000">
+                        <img class="rounded-4 img-fluid mb-4"
+                             src="blog-img/Morghdari/hen-chicken-eggs-chickens-eating-food-farm_35672-271.webp"/>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-section" id="content4">
+                <div class="row d-flex justify-content-around m-0 p-0">
+                    <div class="col-12 col-lg-4  order-1 order-lg-0">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="col-12 me-5">
+                                <h3 class="fw-bolder text-center text-lg-start my-3">
+                                    فارم ماینینگ
+                                </h3>
+                            </div>
+                            <p class="text-justify">
+                                ماینرها وسیله‌ای برای استخراج بیت کوین و سایر ارزهای دیجیتال هستند. با توجه به اینکه
+                                دستگاه‌های ماینر ارز دیجیتال قیمت بالایی دارند، نگهداری و حفاظت از آن‌ها بسیار مورد توجه
+                                قرار گرفته است، صاحبان این دستگاه‌ها در اکثر موارد نیازمند کنترل لحظه به لحظه‌ی تجهیزات
+                                خود هستند و تمایل دارند از سلامت و عملکرد صحیح آن‌ها در حین کار با خبر باشند. قطع و وصل
+                                برق و کنترل وضعیت و دمای ماینرها از مهمترین مواردی می باشد که نیازمند کنترل از راه
+                                دور هستند.
+                            </p>
+                            <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-end mb-4">
+                                <a href="miner.html" class="col-md-5 col-lg-4 col-6 btn my-btn-blue mt-4 shadow"> جزئیات
+                                    محصول </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-flex flex-row justify-content-start img-product order-0 order-lg-1">
+                        <img class="rounded-4 img-fluid mb-4"
+                             src="blog-img/Mining/Bitcoin-Mining-Farm-in-Argentina-CoinIran.webp"/>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-section" id="content5">
+                <div class="row d-flex justify-content-around m-0 p-0">
+                    <div class="col-12 col-lg-4  order-1 order-lg-0">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="col-12 me-5">
+                                <h3 class="fw-bolder text-center text-lg-start my-3">
+                                    استخر و اسپا
+                                </h3>
+                            </div>
+                            <p class="text-justify">
+                                سلامت و ایمنی افراد در استخر بسیار مهم است، به همین دلیل فیلتر کردن آب به طور منظم به
+                                منظور اطمینان از تمیز و بهداشتی بودن آن ضروری است. سیستم مدیریت هوشمند استخر بر کیفیت آب
+                                نظارت می‌کند و دوز مطلوب مواد شیمیایی را در صورت لزوم به آن اضافه می‌نماید و حتی می
+                                تواند در صورت مسدود شدن فیلتر آب شما را آگاه کند. این راهکار با اتصال به سیستم گرمایش از
+                                طریق پمپ آب، اجازه کنترل دمای آب استخر را از راه دور و از طریق گوشی هوشمند می‌دهد.
+                            </p>
+                            <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-end mb-4">
+                                <a href="estakhr.html" class="col-md-5 col-lg-4 col-6 btn my-btn-blue mt-4 shadow">
+                                    جزئیات
+                                    محصول </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-flex flex-row justify-content-start img-product order-0 order-lg-1">
+                        <img class="rounded-4 img-fluid mb-4"
+                             src="blog-img/Smart%20Pool/amazon-alexa-enabled-smart-pool-system-social-image.webp"/>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-section" id="content6">
+                <div class="row d-flex justify-content-around m-0 p-0">
+                    <div class="col-12 col-lg-4  order-1 order-lg-0">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="col-12 me-5">
+                                <h3 class="fw-bolder text-center text-lg-start my-3">
+                                    استخر پرورش ماهی
+                                </h3>
+                            </div>
+                            <p class="text-justify">
+                                امروزه پرورش ماهی جزء پردرآمدترین مشاغل محسوب می‌شود. اما مشکلات و سختی‌های نگهداری
+                                ماهی‌ها باعث شده تا خیلی‌ها سراغ راه‌اندازی و کار در مزرعه پرورش ماهی نروند. با استفاده
+                                از تکنولوژی‌های جدید و هوشمند سازی مراکز پرورش ماهی، می‌توانیم در این عرصه مشغول به
+                                فعالیت شویم. هوشمند سازی مزارع پرورش ماهی، علاوه بر آسان‌تر کردن پرورش ماهی‌ها، باعث
+                                کاهش هزینه‌ها و در‌نتیجه افزایش سودآوری می‌شود.
+                            </p>
+                            <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-end mb-4">
+                                <a href="parvaresh-e-mahi.html"
+                                   class="col-md-5 col-lg-4 col-6 btn my-btn-blue mt-4 shadow">
+                                    جزئیات
+                                    محصول </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-flex flex-row justify-content-start img-product order-0 order-lg-1">
+                        <img class="rounded-4 img-fluid mb-4"
+                             src="blog-img/fish%20farming/fish-breeding-collection-25863.webp"/>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-section" id="content7">
+                <div class="row d-flex justify-content-around m-0 p-0">
+                    <div class="col-12 col-lg-4  order-1 order-lg-0">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="col-12 me-5">
+                                <h3 class="fw-bolder text-center text-lg-start my-3">
+                                    کشاورزی هوشمند
+                                </h3>
+                            </div>
+                            <p class="text-justify">
+                                یک آبیاری دقیق، منظم و اصولی تا حد زیادی باعث صرفه جویی و سود بیشتر در کشاورزی و باغداری
+                                می‌شود. آبیاری نامناسب، یکی از مهم ترین عوامل خشکی نهال و همچنین کاهش رشد و بهره‌وری آن
+                                است. با پیشرفت تکنولوژی و با ساخت انواع حسگرهای پیشرفته و دقیق می توان به آبیاری هوشمند
+                                و منظمی دست یافت. برای یک کشاورزی حرفه ای در ابتدا به تجربه کشاورز و سپس به یک دستگاه
+                                دقیق و البته صنعتی نیاز داریم.
+                            </p>
+                            <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-end mb-4">
+                                <a href="keshavarzi.html"
+                                   class="col-md-5 col-lg-4 col-6 btn my-btn-blue mt-4 shadow">
+                                    جزئیات
+                                    محصول </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-flex flex-row justify-content-start img-product order-0 order-lg-1">
+                        <img class="rounded-4 img-fluid mb-4"
+                             src="blog-img/Smart%20Farming/shutterstock_524457472-1280x720.webp"/>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-section" id="content8">
+                <div class="row d-flex justify-content-between m-0 p-0">
+                    <div class="row d-flex justify-content-around m-0 p-0">
+                        <div class="col-12 col-lg-4  order-1 order-lg-0">
+                            <div class="d-flex flex-column justify-content-center">
+                                <div class="col-12 me-5">
+                                    <h3 class="fw-bolder text-center text-lg-start my-3">
+                                        انبار و سردخانه
+                                    </h3>
+                                </div>
+                                <p class="text-justify">
+                                    سیستم‌های خنک‌کننده، یکی از ملزومات اساسی برای نگهداری انبارها و مراکز نگهداری دارو
+                                    می‌باشند و باید کار خود را به درستی انجام دهند، در نتیجه نیاز به داشتن مدیریتی دقیق
+                                    برای نگهداشتن دمای محیط در محدوده معین، از مهم‌ترین فاکتورها در سردخانه می‌باشد؛
+                                    برای سهولت در این امر باید از سیستم هوشمندی استفاده کرد تا فاصله سنسورهای دما و
+                                    رطوبت مشکلی برای بررسی صحیح آن ایجاد نکند و همچنین با توجه به مقادیر دمای مجاز
+                                    کولرها تحت کنترل دقیق قرار گیرند.
+                                </p>
+                                <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-end mb-4">
+                                    <a href="anbaar-sardkhneh.html"
+                                       class="col-md-5 col-lg-4 col-6 btn my-btn-blue mt-4 shadow">
+                                        جزئیات
+                                        محصول </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex flex-row justify-content-start img-product order-0 order-lg-1">
+                            <img class="rounded-4 img-fluid mb-4"
+                                 src="blog-img/cold%20storage/view-inside-new-warehouse-mezzanine-floor-looking-into-hall.webp"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-section" id="content9">
+                <div class="row d-flex justify-content-between m-0 p-0">
+                    <div class="row d-flex justify-content-around m-0 p-0">
+                        <div class="col-12 col-lg-4  order-1 order-lg-0">
+                            <div class="d-flex flex-column justify-content-center">
+                                <div class="col-12 me-5">
+                                    <h3 class="fw-bolder text-center text-lg-start my-3">
+                                        ساختمان
+                                    </h3>
+                                </div>
+                                <p class="text-justify">
+                                    وجود یک سیستم یکپارچه که قابلیت کنترل تجهیزات برقی مختلف در ساختمان را بر عهده داشته
+                                    باشد ازجمله المان های اصلی در هوشمند سازی یک ساختمان است. در فرایند هوشمند سازی
+                                    ساختمان ها می توان لوازم و یا سیستم های خانه را به یک شبکه مشترک وصل نموده و به طور
+                                    مستقل و از راه دور آن ها را کنترل کرد. به عنوان مثال ترموستات، چراغ ها، بلندگوهای
+                                    صوتی، تلویزیون‌ها و سایر موارد همه به یک سیستم مشترک وصل می‌شوند که از طریق تلفن
+                                    هوشمند یا از طریق دستگاه لمسی تلفن همراه قابل کنترل هستند.
+                                </p>
+                                <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-end mb-4">
+                                    <a href="sakhteman.html"
+                                       class="col-md-5 col-lg-4 col-6 btn my-btn-blue mt-4 shadow">
+                                        جزئیات
+                                        محصول </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 d-flex flex-row justify-content-start img-product order-0 order-lg-1">
+                            <img class="rounded-4 img-fluid mb-4"
+                                 src="blog-img/smart%20house/digital-tablet-screen-with-smart-home-controller-wooden-table.webp"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <img class="wave-img w-100" src="images/Vector%20(1)%20(1).webp">
+    </section>
+    <!-- tab End -->
+    <div class="col-xl-1 col-lg-2 col-md-2 col-2 col fixed-bottom offset-xl-11 offset-lg-10 offset-md-10 offset-9 d-flex flex-column align-items-center">
+        <div class="back-top shadow mb-2" onclick="backtotop()">
+            <i class="fa-solid fa-angle-up"></i>
+        </div>
+        <a href="contactus.html">
+            <div class="contact-float d-flex flex-column align-items-center">
+                <img class="contact-float-img col-xl-8 col-lg-6 col-md-6 col-sm-9 col-11 rounded-circle"
+                     src="images/elhamsoltani-150x150.webp">
+                <span class="contact-float-span px-2 pt-2 pb-1">
+                <i class="fa fa-phone text-white"></i>
+            </span>
+            </div>
+        </a>
+    </div>
+    <!-- footer start -->
+    <footer class="container mt-5">
+        <div class="row banner">
+            <div class="col-11 banner-detail">
+                <img src="images/IOT.webp" class="footer-img d-none d-lg-block"/>
+            </div>
+            <div class="col-12 btns">
+                    <p class="text-white mb-5 mt-3">محصولات پایا 360</p>
+                    <div class="row p-0 m-0 justify-content-start">
+                        <div class="col-12"></div>
+                        <div class="col-6 col-md-4 mb-3">
+                            <a href="salone-gharch.html" class="btn btn-custom-bluedark">
+                                هوشمند سازی سالن قارچ
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 mb-3">
+                            <a href="golkhaneh.html" class="btn btn-custom-bluedark">
+                                هوشمند سازی گلخانه ها
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 mb-3">
+                            <a href="morghdari.html" class="btn btn-custom-bluedark">
+                                هوشمند سازی مرغداری ها
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 mb-3">
+                            <a href="miner.html" class="btn btn-custom-bluedark">
+                                هوشمند سازی فارم ماینینگ
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 mb-3">
+                            <a href="estakhr.html" class="btn btn-custom-bluedark">
+                                هوشمند سازی استخر و اسپا
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 mb-3">
+                            <a href="parvaresh-e-mahi.html" class="btn btn-custom-bluedark">
+                                هوشمند سازی پرورش ماهی
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 mb-3">
+                            <a href="keshavarzi.html" class="btn btn-custom-bluedark">
+                                هوشمند سازی کشاورزی
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 mb-3">
+                            <a href="anbaar-sardkhneh.html" class="btn btn-custom-bluedark">
+                                هوشمند سازی انبار و سردخانه
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 mb-3">
+                            <a href="sakhteman.html" class="btn btn-custom-bluedark">
+                                هوشمند سازی ساختمان
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row footer-items mt-5">
+            <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0">
+                <div class="footer-heading">
+                    <h6>دلتاگروپ</h6>
+                </div>
+                <ul class="row row-cols-lg-2">
+                    <li><a href="salone-gharch.html">هوشمند سازی سالن قارچ</a></li>
+                    <li><a href="golkhaneh.html">هوشمند سازی گلخانه ها</a></li>
+                    <li><a href="morghdari.html">هوشمند سازی مرغداری ها</a></li>
+                    <li><a href="miner.html">هوشمند سازی فارم ماینینگ</a></li>
+                    <li><a href="estakhr.html">هوشمند سازی استخر و اسپا</a></li>
+                    <li><a href="parvaresh-e-mahi.html">هوشمند سازی پرورش ماهی</a></li>
+                    <li><a href="keshavarzi.html">هوشمند سازی کشاورزی هوشمند</a></li>
+                    <li><a href="anbaar-sardkhneh.html">هوشمند سازی انبار و سردخانه</a></li>
+                    <li><a href="sakhteman.html">هوشمند سازی ساختمان</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 mt-5 mt-lg-0">
+                <div class="footer-heading">
+                    <h6>دلتاگروپ</h6>
+                </div>
+                <ul class="col">
+                    <li><a href="index.html">صفحه اصلی</a></li>
+                    <li><a href="blog.html">مقالات</a></li>
+                    <li><a href="gallery.html">گالری عکس</a></li>
+                    <li><a href="aboutus.html">درباره ما</a></li>
+                    <li><a href="contactus.html">مشاوره رایگان</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+                <div class="footer-heading">
+                    <h6>ارتباط با ما</h6>
+                </div>
+                <div class="row row-cols-2">
+
+                    <ul class="contactusbox pe-2">
+                        <li><a class="border-start border-secondary border-3" href="contactus.html">تماس با ما</a></li>
+                        <li class="mt-3">
+                            <a class="text-start w-100">مشهد <i
+                                    class="fa-solid fa-phone"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-start w-100">۰21-28425066 <i
+                                    class="fa-solid fa-phone"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-start w-100 me-2">info@paya360.ir <i
+                                    class="fa-solid fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0 text-center text-md-start ps-5">
+                <div class="footer-heading">
+                    <h6>شبکه های اجتماعی</h6>
+                </div>
+                <ul class="list-inline d-flex justify-content-center justify-content-lg-start">
+                    <li class="list-inline-item">
+                        <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    </li>
+                </ul>
+                <div class="form-footer">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="ایمیل خود را وارد کنید"
+                               aria-label="email" aria-describedby="basic-addon1"/>
+                        <button type="submit" class="input-group-text bg-primary text-white" id="basic-addon1">
+                            ارسال
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="row align-items-center justify-content-center">
+
+                <div class="col-4 col-md-2 text-center mb-3">
+                    <a href="#">
+                        <img src="images/Delta-logo.webp" width="100%"/>
+                    </a>
+                </div>
+                <div class="col-4 col-md-2 text-center mb-3">
+                    <a href="#">
+                        <img src="images/fanavari.png" width="100%"/>
+                    </a>
+                </div>
+                <div class="col-4 col-md-2 text-center mb-3">
+                    <a href="#">
+                        <img src="images/daneshhh.png" width="100%"/>
+                    </a>
+                </div>
+                <div class="col-4 col-md-2 text-center mb-3">
+                    <a href="#">
+                        <img src="images/qanon.svg" width="100%"/>
+                    </a>
+                </div>
+                <div class="col-4 col-md-2 text-center mb-3">
+                    <a href="#">
+                        <img src="images/creaives.webp" width="100%"/>
+                    </a>
+                </div>
+            </div>
+            <hr/>
+            <div class="info-footer row justify-content-center align-items-center pb-2 text-center">
+                <div class="col-6">
+                    <img src="images/Delta-logo.webp" width="100"/>
+                </div>
+                <div class="col-6">
+                    <a href="#" class="text-decoration-none text-dark">طراحی و پیاده سازی توسط
+                        <span class="fw-bold text-primary">دلتاگروپ</span> &#169;
+                    </a>
+                    <span>کلیه حقوق برای سفیر ایرانیان کسری محفوظ است. </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/main-page.min.js"></script>
+<script>
+const boxes=document.querySelectorAll(".box");const checkBoxes=()=>{const triggerBottom=(window.innerHeight/5)*4;boxes.forEach((box)=>{const boxTop=box.getBoundingClientRect().top;if(boxTop<triggerBottom)box.classList.add("show");else box.classList.remove("show")})};window.addEventListener("scroll",checkBoxes);checkBoxes()
+</script>
+</body>
+
+</html>
